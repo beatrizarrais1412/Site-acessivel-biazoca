@@ -1,0 +1,71 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: 'Montserrat', sans-serif;
+}
+
+body {
+  background-color: #0f0f0f;
+  color: #ffffff;
+  line-height: 1.6;
+}
+
+header {
+  background-color: #1a1a1a;
+  padding: 2rem;
+  text-align: center;
+}
+
+header h1 {
+  font-size: 2.5rem;
+  margin-bottom: 0.5rem;
+}
+
+header p {
+  font-size: 1.2rem;
+  color: #cccccc;
+}
+
+section {
+  padding: 3rem 2rem;
+  max-width: 900px;
+  margin: auto;
+}
+
+.slogan {
+  text-align: center;
+  font-size: 1.8rem;
+  color: #e63946;
+  margin-bottom: 2rem;
+}
+
+.pillars, .produtos {
+  margin-bottom: 2rem;
+}
+
+h2 {
+  color: #f1faee;
+  margin-bottom: 1rem;
+  border-bottom: 2px solid #e63946;
+  display: inline-block;
+}
+
+ul {
+  list-style: none;
+  padding-left: 1rem;
+}
+
+ul li::before {
+  content: '•';
+  color: #e63946;
+  margin-right: 0.5rem;
+}
+
+footer {
+  background-color: #1a1a1a;
+  text-align: center;
+  padding: 1.5rem;
+  font-size: 0.9rem;
+  color: #888;
+}
